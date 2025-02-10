@@ -143,9 +143,6 @@
         border-radius: 14px;
         z-index: -1;
         animation: 10s spin linear infinite;
-        transition-property: all;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-duration: 150ms;
     }
 
     .experience-card::before {
@@ -213,3 +210,4 @@
     }
 
 }
+
