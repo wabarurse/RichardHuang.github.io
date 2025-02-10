@@ -81,21 +81,28 @@
         @apply relative w-[250px] h-[250px] bg-[#1A1A1A] rounded-full;
     }
 
-    .profile-picture::after,
-    .profile-picture::before {
+    .profile-picture::after {
         content: '';
         position: absolute;
         inset: calc(-1 * var(--padding, 5px));
-        background-image: conic-gradient(from var(--angle), #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+        background-image: conic-gradient(
+          #ff4545,
+          #00ff99,
+          #006aff,
+          #ff0095,
+          #ff4545
+        );
         border-radius: 50%;
         z-index: -1;
-        animation: 10s spin linear infinite;
-    }
-
-    .profile-picture::before {
-        filter: blur(1.5rem);
-        opacity: 0.5;
-    }
+        animation: spin-this 10s linear infinite;
+      }
+      
+      @keyframes spin-this {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+      
 
     @property --angle {
         syntax: "<angle>";
