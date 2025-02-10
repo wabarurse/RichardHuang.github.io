@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RichardHuang.github.io/static/css/main.84132c84.css",
-    "main.js": "/RichardHuang.github.io/static/js/main.c2f4d203.js",
+    "main.css": "/RichardHuang.github.io/static/css/main.4e343626.css",
+    "main.js": "/RichardHuang.github.io/static/js/main.596f37f1.js",
     "static/media/Nunito-VariableFont_wght.ttf": "/RichardHuang.github.io/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/Holysweet-rgn4K.otf": "/RichardHuang.github.io/static/media/Holysweet-rgn4K.5aaaec86dd98b31a78ed.otf",
     "index.html": "/RichardHuang.github.io/index.html",
-    "main.84132c84.css.map": "/RichardHuang.github.io/static/css/main.84132c84.css.map",
-    "main.c2f4d203.js.map": "/RichardHuang.github.io/static/js/main.c2f4d203.js.map"
+    "main.4e343626.css.map": "/RichardHuang.github.io/static/css/main.4e343626.css.map",
+    "main.596f37f1.js.map": "/RichardHuang.github.io/static/js/main.596f37f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.84132c84.css",
-    "static/js/main.c2f4d203.js"
+    "static/css/main.4e343626.css",
+    "static/js/main.596f37f1.js"
   ]
 }
