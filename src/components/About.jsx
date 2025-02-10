@@ -14,7 +14,7 @@ function About() {
         <BiDownArrow size={48} className="absolute bottom-8 animate-bounce text-color-1" />
       </div>
       <div className="scroll-fade bg-color flex justify-center mx-auto px-4 py-24">
-        <div className="profile-picture hover:scale-105">
+        <div className="profile-picture">
           <img src={`${process.env.PUBLIC_URL}/images/me.jpeg`} alt="profile" className="w-full h-full rounded-full" />
         </div>
         <div className="flex flex-col space-y-4 max-w-screen-lg">
