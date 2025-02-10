@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RichardHuang.github.io/static/css/main.7fc73828.css",
+    "main.css": "/RichardHuang.github.io/static/css/main.84132c84.css",
     "main.js": "/RichardHuang.github.io/static/js/main.19f4b623.js",
     "static/media/Nunito-VariableFont_wght.ttf": "/RichardHuang.github.io/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
     "static/media/Holysweet-rgn4K.otf": "/RichardHuang.github.io/static/media/Holysweet-rgn4K.5aaaec86dd98b31a78ed.otf",
     "index.html": "/RichardHuang.github.io/index.html",
-    "main.7fc73828.css.map": "/RichardHuang.github.io/static/css/main.7fc73828.css.map",
+    "main.84132c84.css.map": "/RichardHuang.github.io/static/css/main.84132c84.css.map",
     "main.19f4b623.js.map": "/RichardHuang.github.io/static/js/main.19f4b623.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fc73828.css",
+    "static/css/main.84132c84.css",
     "static/js/main.19f4b623.js"
   ]
 }
