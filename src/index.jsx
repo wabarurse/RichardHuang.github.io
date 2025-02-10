@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './index.css';
 import About from './components/About';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
+
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -19,7 +20,7 @@ const ScrollToTop = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<About />} />
