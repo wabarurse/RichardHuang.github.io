@@ -9,7 +9,7 @@ function Projects() {
     <div className="bg-color">
       <NavigationBar />
       <div className="page-fade-in flex justify-center items-center h-screen">
-        <h1 className="font-crazy text-9xl font-bold text-color-1">is it changing?</h1>
+        <h1 className="font-crazy text-9xl font-bold text-color-1">i dont think its changing...?</h1>
         <BiDownArrow size={48} className="absolute bottom-8 animate-bounce text-color-1" />
       </div>
       <div className="max-w-4xl mx-auto px-4 py-32">

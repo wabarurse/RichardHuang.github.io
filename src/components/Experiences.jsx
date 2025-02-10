@@ -72,7 +72,7 @@ const Experience = ({
       </a>
     </div>
     <div className="w-full">
-      <div className="relative">
+      <div className="hover-zoom relative">
         <div
           className={`experience-card ${direction === 0 ? "left-4" : "right-4"
             }`}
