@@ -9,7 +9,7 @@ function Projects() {
     <div className="bg-color">
       <NavigationBar />
       <div className="page-fade-in flex justify-center items-center h-screen">
-        <h1 className="font-crazy text-9xl font-bold text-color-1">i dont think its changing...?</h1>
+        <h1 className="font-crazy text-9xl font-bold text-color-1">i</h1>
         <BiDownArrow size={48} className="absolute bottom-8 animate-bounce text-color-1" />
       </div>
       <div className="max-w-4xl mx-auto px-4 py-32">
@@ -63,7 +63,7 @@ function Projects() {
 }
 
 const ProjectCard = ({ logo, name, description, link }) => (
-  <div className="scroll-fade hover-zoom">
+  <div className="scroll-fade transition-transform hover:scale-105">
     <div className="project-card">
       <div class="absolute top-4 left-4 w-8 h-8">
         <img src={logo} alt="logo" />
