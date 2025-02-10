@@ -44,14 +44,12 @@ function About() {
 
 
         <div className="flex space-x-8 col-start-3 items-center justify-center py-4">
-
-          <EducationImage image="/images/education/uw.png" link="https://uwaterloo.ca/" />
-          <EducationImage image="/images/education/uw_se.png" link="https://uwaterloo.ca/software-engineering/" />
-          <EducationImage image="/images/education/uw_eng.png" link="https://uwaterloo.ca/engineering/" />
-          <EducationImage image="/images/education/uw_math.png" link="https://uwaterloo.ca/math/" />
-          <EducationImage image="/images/education/uw_orbital.png" link="https://www.uworbital.com/" />
-          <EducationImage image="/images/education/uw_bc.png" link="https://badmintonclub.uwaterloo.ca/" />
-
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw.png`} link="https://uwaterloo.ca/" />
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw_se.png`} link="https://uwaterloo.ca/software-engineering/" />
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw_eng.png`} link="https://uwaterloo.ca/engineering/" />
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw_math.png`} link="https://uwaterloo.ca/math/" />
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw_orbital.png`} link="https://www.uworbital.com/" />
+          <EducationImage image={`${process.env.PUBLIC_URL}/images/education/uw_bc.png`} link="https://badmintonclub.uwaterloo.ca/" />
         </div>
       </div>
 
@@ -62,23 +60,23 @@ function About() {
         <div className="flex flex-col items-center space-y-4 ">
           <div className="grid grid-cols-6 gap-y-16 container py-12 place-items-center">
 
-            <Skill name="c++" image="/images/skills/c++.png" />
-            <Skill name="c" image="/images/skills/c.png" />
-            <Skill name="python" image="/images/skills/python.png" />
-            <Skill name="javascript" image="/images/skills/js.png" />
-            <Skill name="typescript" image="/images/skills/ts.png" />
-            <Skill name="html" image="/images/skills/html.png" />
-            <Skill name="css" image="/images/skills/css.png" />
-            <Skill name="tailwind" image="/images/skills/tailwind.png" />
-            <Skill name="react" image="/images/skills/react.png" />
-            <Skill name="node" image="/images/skills/node.png" />
-            <Skill name="express" image="/images/skills/express.png" />
-            <Skill name="mongoDB" image="/images/skills/mongo.png" />
-            <Skill name="postgreSQL" image="/images/skills/postgres.png" />
-            <Skill name="swift" image="/images/skills/swift.png" />
-            <Skill name="swiftUI" image="/images/skills/swiftui.png" />
-            <Skill name="git" image="/images/skills/git.png" />
-            <Skill name="github" image="/images/skills/github.png" />
+          <Skill name="c++" image={`${process.env.PUBLIC_URL}/images/skills/c++.png`} />
+          <Skill name="c" image={`${process.env.PUBLIC_URL}/images/skills/c.png`} />
+          <Skill name="python" image={`${process.env.PUBLIC_URL}/images/skills/python.png`} />
+          <Skill name="javascript" image={`${process.env.PUBLIC_URL}/images/skills/js.png`} />
+          <Skill name="typescript" image={`${process.env.PUBLIC_URL}/images/skills/ts.png`} />
+          <Skill name="html" image={`${process.env.PUBLIC_URL}/images/skills/html.png`} />
+          <Skill name="css" image={`${process.env.PUBLIC_URL}/images/skills/css.png`} />
+          <Skill name="tailwind" image={`${process.env.PUBLIC_URL}/images/skills/tailwind.png`} />
+          <Skill name="react" image={`${process.env.PUBLIC_URL}/images/skills/react.png`} />
+          <Skill name="node" image={`${process.env.PUBLIC_URL}/images/skills/node.png`} />
+          <Skill name="express" image={`${process.env.PUBLIC_URL}/images/skills/express.png`} />
+          <Skill name="mongoDB" image={`${process.env.PUBLIC_URL}/images/skills/mongo.png`} />
+          <Skill name="postgreSQL" image={`${process.env.PUBLIC_URL}/images/skills/postgres.png`} />
+          <Skill name="swift" image={`${process.env.PUBLIC_URL}/images/skills/swift.png`} />
+          <Skill name="swiftUI" image={`${process.env.PUBLIC_URL}/images/skills/swiftui.png`} />
+          <Skill name="git" image={`${process.env.PUBLIC_URL}/images/skills/git.png`} />
+          <Skill name="github" image={`${process.env.PUBLIC_URL}/images/skills/github.png`} />
 
 
           </div>

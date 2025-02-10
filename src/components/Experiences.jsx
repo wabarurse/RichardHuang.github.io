@@ -15,7 +15,7 @@ function Experiences() {
       <div className="max-w-5xl mx-auto px-4 py-48">
         <Experience
           direction={0}
-          logo="/images/experiences/orbital.png"
+          logo={`${process.env.PUBLIC_URL}/images/experiences/orbital.png`}
           title="Software Developer"
           company="@ UW Orbital"
           description={[
@@ -27,7 +27,7 @@ function Experiences() {
         />
         <Experience
           direction={1}
-          logo="/images/experiences/checkmate.png"
+          logo={`${process.env.PUBLIC_URL}/images/experiences/checkmate.png`}
           title="Hardware and Software Developer"
           company="@ Checkmate Robotics"
           description={[
@@ -39,7 +39,7 @@ function Experiences() {
         />
         <Experience
           direction={0}
-          logo="/images/experiences/uhn.png"
+          logo={`${process.env.PUBLIC_URL}/images/experiences/uhn.png`}
           title="Summer Student"
           company="@ Princess Margaret Cancer Center"
           description={[

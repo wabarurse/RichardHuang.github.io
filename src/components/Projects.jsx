@@ -16,7 +16,7 @@ function Projects() {
         <div className="grid grid-cols-2 gap-10 justify-items-center">
 
           <ProjectCard
-            logo="/images/education/uw_se.png"
+            logo={`${process.env.PUBLIC_URL}/images/education/uw_se.png`}
             name="Voice Controlled Car"
             description=
             "I designed and built a voice-controlled robotic car using a 3D-printed chassis, Arduino motors, 
@@ -27,18 +27,18 @@ function Projects() {
             link="https://github.com/raphael-64/voice-controlled-wheelchair"
           />
           <ProjectCard
-          logo="/images/projects/tourni.png"
-          name="Touni" 
-          description=
-          "Tourni is a tournament portal for community and intramural activities, seamlessly connecting participants 
-          and organizers. With a user-friendly interface, organizers can set up tournaments in under a minute. 
-          Tourni integrates WebRTC for live streaming, enabling easy match broadcasting. It also tracks stats and 
-          match histories, featuring a unique card-collection system where athletes earn digital badges for defeated 
-          opponents—fostering competition, celebrating achievements, and giving players goals to chase."
-          link="https://github.com/allenlian1/tourni"
+            logo={`${process.env.PUBLIC_URL}/images/projects/tourni.png`}
+            name="Touni" 
+            description=
+            "Tourni is a tournament portal for community and intramural activities, seamlessly connecting participants 
+            and organizers. With a user-friendly interface, organizers can set up tournaments in under a minute. 
+            Tourni integrates WebRTC for live streaming, enabling easy match broadcasting. It also tracks stats and 
+            match histories, featuring a unique card-collection system where athletes earn digital badges for defeated 
+            opponents—fostering competition, celebrating achievements, and giving players goals to chase."
+            link="https://github.com/allenlian1/tourni"
           />
           <ProjectCard 
-            logo="/images/projects/swype.png"
+            logo={`${process.env.PUBLIC_URL}/images/projects/swype.png`}
             name="Swype" 
             description=
             "I developed Swype, an educational app that enhances math practice for younger students by gamifying 
