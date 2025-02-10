@@ -97,17 +97,22 @@
         opacity: 0.5;
     }
 
+    @property --angle {
+        syntax: "<angle>";
+        initial-value: 0deg;
+        inherits: false;
+    }
+
+    @keyframes spin {
+        to {
+            --angle: 360deg;
+        }
+    }
 
     /* https://www.youtube.com/watch?v=ezP4kbOvs_E */
 
     .project-card {
         @apply relative w-[400px] h-[450px] bg-[#1A1A1A] p-8 rounded-lg;
-    }
-
-    @property --angle {
-        syntax: "<angle>";
-        initial-value: 0deg;
-        inherits: false;
     }
 
     .project-card::after,
@@ -148,12 +153,6 @@
     .experience-card::before {
         filter: blur(1.5rem);
         opacity: 0.5;
-    }
-
-    @keyframes spin {
-        to {
-            --angle: 360deg;
-        }
     }
 
     .bg-color {

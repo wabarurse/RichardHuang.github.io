@@ -63,7 +63,7 @@ function Projects() {
 }
 
 const ProjectCard = ({ logo, name, description, link }) => (
-  <div className="scroll-fade transition-transform hover:scale-105">
+  <div className="scroll-fade hover-zoom">
     <div className="project-card">
       <div class="absolute top-4 left-4 w-8 h-8">
         <img src={logo} alt="logo" />
