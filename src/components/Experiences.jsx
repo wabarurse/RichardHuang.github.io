@@ -68,7 +68,7 @@ const Experience = ({
     <div className="experience-vertical-line"></div>
     <div className="hover-zoom experience-logo">
       <a href={link}>
-        <img src={logo} alt="company logo" className="h-[60px] w-[60px]" /> 
+        <img src={logo} alt="company logo" className="h-[60px] w-[60px]" />
       </a>
     </div>
     <div className="w-full">
